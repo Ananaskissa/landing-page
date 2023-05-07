@@ -45,14 +45,16 @@
 }
 
 footer {
-    position: fixed;
+    position: relative;
     bottom: 0;
     left: 0;
     background-color: #254117;
     width: 100%;
     height: 50px;
     text-align: center;
+    padding-top: 10px;
     color: white;
+    font-size: 14px;
 
 }
 
@@ -127,16 +129,20 @@ font-weight: bold;
 border-radius: 10px;
 align-items: left;
 
+
+
 }
 
 
 .flex-container2 {
     display: flex;
     justify-content: center;
+    text-align: left;
     float: left;
     margin-left: 10%;
     height: 400px;
     width: 400px;
+
 }
 
 .section5{
